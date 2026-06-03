@@ -1,0 +1,118 @@
+export const products = [
+  {
+    id: 1,
+    name: "Laptop",
+    description: "15-inch gaming laptop",
+    refNo: "PRD-1001",
+  },
+  {
+    id: 2,
+    name: "Smartphone",
+    description: "Latest Android phone",
+    refNo: "PRD-1002",
+  },
+  {
+    id: 3,
+    name: "Headphones",
+    description: "Noise cancelling headphones",
+    refNo: "PRD-1003",
+  },
+  {
+    id: 4,
+    name: "Keyboard",
+    description: "Mechanical RGB keyboard",
+    refNo: "PRD-1004",
+  },
+  {
+    id: 5,
+    name: "Mouse",
+    description: "Wireless gaming mouse",
+    refNo: "PRD-1005",
+  },
+  {
+    id: 6,
+    name: "Monitor",
+    description: "27-inch 4K monitor",
+    refNo: "PRD-1006",
+  },
+  {
+    id: 7,
+    name: "Printer",
+    description: "All-in-one printer",
+    refNo: "PRD-1007",
+  },
+  {
+    id: 8,
+    name: "Tablet",
+    description: "10-inch Android tablet",
+    refNo: "PRD-1008",
+  },
+  {
+    id: 9,
+    name: "Smartwatch",
+    description: "Fitness tracking smartwatch",
+    refNo: "PRD-1009",
+  },
+  {
+    id: 10,
+    name: "Speaker",
+    description: "Bluetooth portable speaker",
+    refNo: "PRD-1010",
+  },
+
+  {
+    id: 11,
+    name: "Camera",
+    description: "DSLR camera with lens kit",
+    refNo: "PRD-1011",
+  },
+  {
+    id: 12,
+    name: "Router",
+    description: "Dual-band WiFi router",
+    refNo: "PRD-1012",
+  },
+  {
+    id: 13,
+    name: "Hard Drive",
+    description: "1TB external hard drive",
+    refNo: "PRD-1013",
+  },
+  { id: 14, name: "SSD", description: "512GB NVMe SSD", refNo: "PRD-1014" },
+  {
+    id: 15,
+    name: "Power Bank",
+    description: "20000mAh fast charging power bank",
+    refNo: "PRD-1015",
+  },
+  {
+    id: 16,
+    name: "Charger",
+    description: "65W fast charger",
+    refNo: "PRD-1016",
+  },
+  {
+    id: 17,
+    name: "Cable",
+    description: "USB-C charging cable",
+    refNo: "PRD-1017",
+  },
+  {
+    id: 18,
+    name: "Projector",
+    description: "HD home theater projector",
+    refNo: "PRD-1018",
+  },
+  {
+    id: 19,
+    name: "VR Headset",
+    description: "Virtual reality headset",
+    refNo: "PRD-1019",
+  },
+  {
+    id: 20,
+    name: "Cooling Pad",
+    description: "Laptop cooling pad with fans",
+    refNo: "PRD-1020",
+  },
+];
