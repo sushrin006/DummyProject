@@ -7,19 +7,24 @@ export default function Products() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    (async () => {
+    async function fetchProducts() {
       const res = await fetch("/api/products");
+
       console.log("Status:", res.status);
-      console.log("OK?:", res.ok); 
+      console.log("OK?:", res.ok);
+
       if (!res.ok) {
         const raw = await res.text();
         console.error("Server returned error:", raw);
         return;
       }
       const data = await res.json();
+
       console.log("Data received:", data);
       setProducts(data.products);
-    })();
+    }
+    fetchProducts();
+
   }, []);
 
 
@@ -31,7 +36,7 @@ export default function Products() {
         {products.map((p) => (
           <div
             key={p.id}
-            onClick={() => navigate(`/products/${p.id}`)}
+            onClick={() => navigate(`/products-by-id/${p.id}`)}
             className="border p-4 rounded shadow cursor-pointer hover:shadow-lg"
           >
             <h2 className="font-bold text-lg">{p.name}</h2>
